@@ -3,7 +3,7 @@
 *::after {
   --azul-escuro: #cb6ce6;
   --azul-medio: #9753aa;
-  --azul-claro: #d7d7d7;
+  --azul-claro: #feeafe;
   --cinza-texto: #444444;
   --cinza-claro: #ececec;
   box-sizing: border-box;
@@ -58,6 +58,7 @@ body {
 }
 
 .mensagem {
+  background-color: #f2ffc8;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -75,13 +76,13 @@ body {
 }
 
 .pesquisar__input {
-  width: 20vw;
+  width: 30vw;
   height: 35px;
   border: 1px solid rgb(211, 211, 211);
   border-radius: 13px;
   font-size: 16px;
   padding: 3px 15px;
-  color: var(--azul-escuro);
+  color: var(--cinza-texto);
 }
 
 .pesquisar__botao {
